@@ -11,7 +11,7 @@ html {
   overflow-x: hidden;
 }
 .second-page {
-  background: rgb(56 50 50 / 80%) url(../img/about2.jpg);
+  background: rgb(56 50 50 / 80%) url(about2.jpg);
   background-size: cover;
   background-blend-mode: darken;
   background-position: center;
@@ -165,7 +165,7 @@ td {
   border-radius: 11px;
 }
 .background {
-  background: rgba(0, 0, 0, 0.8) url(../img/bggps22.jpg);
+  background: rgba(0, 0, 0, 0.8) url(bggps22.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -234,7 +234,7 @@ td {
   }
   .h-nav-resp {
     height: 72px;
-    background: rgba(0, 0, 0, 0.8) url(../img/bg2.jpg);
+    background: rgba(0, 0, 0, 0.8) url(bg2.jpg);
   }
 }
 @media only screen and (max-width: 400px) {
