@@ -63,7 +63,7 @@ html {
 }
 
 .background {
-  background: rgba(0, 0, 0, 0.8) url(../img/bggps22.jpg);
+  background: rgba(0, 0, 0, 0.8) url(bggps22.jpg);
   background-size: cover;
   background-blend-mode: darken;
 }
@@ -366,4 +366,6 @@ html {
   .footer {
     position: static;
   }
+  .footer-dis{
+    text-align:column;
 }
