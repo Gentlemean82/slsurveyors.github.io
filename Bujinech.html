@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head >
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="../Style/Style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet" />
+
+
+  <title>SLS</title>
+</head>
+
+<body>
+
+  <section id="final" class="final">
+    <nav class="navbar background h-nav-resp">
+      <ul class="nav-list v-class-resp">
+        <div class="logo">
+          <img src="../img/Capture.PNG" alt="logo" />
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="http://127.0.0.1:5500/html/About.html">About</a></li>
+        <!-- <li><a href="#services">Services</a></li> -->
+        <li><a href="#contact"> Contact Us</a></li>
+      </ul>
+
+      <div class="rightnav v-class-resp">
+        <input type="search" value="" name="search" id="search" onchange="openpage()" />
+        <button class="btn btn-sm" onclick="search()">search</button>
+      </div>
+      <div class="burger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+    </nav>
+    <section class="background firstSection">
+      <div class="box-main">
+        <div class="firsthalf">
+          <p class="text-small">This is official SLS website</p>
+          <p class="text-big">
+            In search of professional Land Surveyors? <i>Entrust us</i> for
+            trusted and varified workers following
+            <strong>adept</strong> methods that will assure you.
+          </p>
+          <div class="buttons">
+            <a href="http://127.0.0.1:5500/html/About.html" class="change"><strong> About us</strong></a>
+            <a href="#info"class="change" id="#info">  <u> <strong>Information</strong> </u></a>
+          </div>
+        </div>
+        <div class="secondhalf">
+          <img src="../img/bg.jpg" alt="Building-img" />
+        </div>
+      </div>
+    </section>
+  </section>
+  <section class="back2" id="info">
+    <section class="section"  >
+      <div class="paras text-big">
+        <p class="sectionTag text-small">What is Land Survey?</p>
+        <p class="sectionSubTag">
+          Surveying or land surveying is the technique, profession, art, and
+          science of determining the terrestrial two-dimensional or
+          three-dimensional positions of points and the distances and angles
+          between them. A land surveying professional is called a land
+          surveyor.
+        </p>
+      </div>
+
+      <div class="thumbnail">
+        <img src="https://source.unsplash.com/1600x900/?architecture,Building designs" alt="bg2" class="imgfluid" />
+      </div>
+    </section>
+    <section class="section-Left">
+      <div class="paras text-big">
+        <p class="sectionTag text-small">Types of Land Surveys</p>
+        <p class="sectionSubTag">
+          There are several types of Land Survey, such as ALTA Survey,
+          Topographic Survey, Construction Survey, Layout & Demarcation
+          Survey, Site Survey, Boundary Survey.
+        </p>
+      </div>
+      <div class="thumbnail">
+        <img src="https://source.unsplash.com/1600x900/?building designs,plain designs" alt="bg2" class="imgfluid" />
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="paras text-big">
+        <p class="sectionTag text-small">Why Choose Us?</p>
+        <p class="sectionSubTag">
+          Our work is done with precision, using latest technological tools
+          which decrease chances of errors and faulty miscalculations.
+          Moreover, data from sites is kept save for longer times.
+          Our team compiles data by keeping in mind desired and required units of data
+         as per requirement of our clients
+        </p>
+      </div>
+
+      <div class="thumbnail">
+        <img src="https://source.unsplash.com/1600x900/?Business members,Team" alt="bg2"
+          class="imgfluid" />
+      </div>
+  </section>
+  <section class="section-Left">
+    <div class="paras text-big">
+      <p class="sectionTag text-small">Tools and Instruments</p>
+      <p class="sectionSubTag">
+        Our crew members use latest technological tools such as: 
+        RTK(Real-Time Kinematic)G.P.S,Total Stations, Staffs and more.
+      </p>
+    </div>
+    <div class="thumbnail">
+      <img src="https://source.unsplash.com/1600x900/?Technology tools,Total Stations" alt="bg2" class="imgfluid" />
+    </div>
+</section>
+  <hr />
+  <form action="../php/mail.php" method="post">
+    <section class="Contact" id="contact">
+      <h2 class="text-centre">Contact Us</h2>
+      <div class="form">
+        <input class="form-input" type="text" name="Name" id="Name" placeholder="Enter Your Name" />
+        <input class="form-input" type="text" name="Phone" id="Phone" placeholder="Enter Your Phone" />
+        <input class="form-input" type="text" name="Email" id="Email" placeholder="Enter Your Email (optional)" />
+        <textarea class="form-input" name="text" id="text" cols="30" rows="10"
+          placeholder="Elaborate you concern"></textarea>
+        <button class="btn btn-dark">Submit</button>
+      </div>
+  </form>
+  </section>
+  <footer class="footer-dis">
+    <div class="footer-left">
+      <h3>SLS <span>Land surveyor</span></h3>
+      <p class="footer-links">
+        <a href="#home"></a>
+        <a href="#home"></a>
+        <a href="#home"></a>
+        <a href="#home"></a>
+      </p>
+      <p class="footer-company-name">
+        Copyright 2023 &copy;
+        <p><strong>StandardLandSurveyors</strong></p>
+        All rights reserved
+      </p>
+    </div>
+    <div class="footer-center">
+      <i class="fa fa-map-marker"></i>
+      <p><span>Rawalpindi</span></p>
+    </div>
+    <div>
+      <i class="fa fa-phone"></i>
+      <p><span>0321-5561314</span></p>
+    </div>
+    <h4><a href="mailto:hassaanulhaq82@gmail.com">Contact Us</a></h4>
+  </footer>
+  <script src="../js/resp.js">
+  </script>
+</body>
+
+</html>
