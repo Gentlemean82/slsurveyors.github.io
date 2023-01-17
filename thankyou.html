@@ -4,12 +4,52 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Thank you!</title>
+    <title>Thank You</title>
+
+    <style>
+      div {
+        font-size: 20px;
+        padding: 0px 25px;
+        font-family: Georgia;
+        max-width: 100%;
+      }
+
+      .line {
+        font-size: 23px;
+        padding-top: 10px;
+      }
+      .heading {
+        color: rgb(47, 49, 49);
+      }
+
+      /* .img {
+        width: min(20% 60% 90%);
+        background: rgba(0, 0, 0, 0.2);
+        background-blend-mode: darken;
+        background-image: url(../img/contactus.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+      } */
+      .img {
+        width: min(20% 60% 90%);
+        height: 50vh;
+        overflow: hidden;
+        background: url("../img/contactus2.jpg");
+        background-size: cover;
+      }
+
+      @media (min-width: 768px) {
+        .img {
+          height: 100vh;
+        }
+      }
+    </style>
   </head>
-  <body>
-    <h1>
-      Thank you for contacing us. Our team will Reply you within next 2 to 4
-      hours.
-    </h1>
+
+  <body class="img">
+    <div>
+      <h1 class="heading">Thank You For Contacting Us.</h1>
+      <p class="line">Our team will reach you as soon as possible.</p>
+    </div>
   </body>
 </html>
