@@ -121,18 +121,43 @@
     <section class="Contact" id="contact">
       <h2 class="text-centre">Contact Us</h2>
       <div class="form">
-        <input class="form-input" type="text" name="Name" id="Name" placeholder="Enter Your Name" />
-        <input class="form-input" type="text" name="Phone" id="Phone" placeholder="Enter Your Phone" />
-        <input class="form-input" type="text" name="Email" id="Email" placeholder="Enter Your Email (optional)" />
-        <textarea class="form-input" name="text" id="text" cols="30" rows="10"
-          placeholder="Elaborate you concern"></textarea>
-        <button class="btn btn-dark">Submit</button>
+               <form action="https://formsubmit.co/hassaanulhaq82@gmail.com" method="POST">
+          <input class="form-input" type="text" name="name" required placeholder="Your Name" />
+          <input
+          class="form-input"
+            type="phone"
+            name="phone"
+            required
+            placeholder="Phone Number"
+          />
+          <input
+            type="hidden"
+            name="_next"
+            value="http://127.0.0.1:5500/thank%20you.html"
+          />
+          <input
+          class="form-input"
+            type="email"
+            name="email"
+            required
+            placeholder="Your Email Address"
+          />
+          <textarea
+          class="form-input"
+            type="textarea"
+            name="text"
+            required
+            placeholder="Enter Your Concern"
+          ></textarea>
+    
+          <button class="btn btn-dark" type="submit">Send</button>
+        </form>
       </div>
   </form>
   </section>
   <footer class="footer-dis">
     <div class="footer-left">
-      <h3>SLS <span>Land surveyor</span></h3>
+      <h3>SLS <br><span>Standard Land surveyor</span></h3>
       <p class="footer-company-name">
         Copyright 2023 &copy;
         <p><strong>StandardLandSurveyors</strong></p>
@@ -144,12 +169,12 @@
       <p><span>Rawalpindi</span></p>
     </div>
     <div>
-      <i class="fa fa-phone"></i>
+      <i class="fa fa-phone" aria-hidden="true"></i>
       <p><span>0321-5561314</span></p>
       <p><span>0300-5306978</span></p>
       <p><span>0317-0517837</span></p>
     </div>
-    <h4><a href="mailto:hassaanulhaq82@gmail.com">Contact Us</a></h4>
+    <h4><a href="mailto:haqnazar50@gmail.com">Contact Us</a></h4>
   </footer>
   <script src="resp.js">
   </script>
