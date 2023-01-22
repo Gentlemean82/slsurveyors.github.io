@@ -11,7 +11,7 @@ html {
   overflow-x: hidden;
 }
 .second-page {
-  background: rgb(56 50 50 / 80%) url(about2.jpg);
+  background: rgba(118, 129, 129, 80%) url(about2.jpg);
   background-size: cover;
   background-blend-mode: lighten;
   background-position: center;
